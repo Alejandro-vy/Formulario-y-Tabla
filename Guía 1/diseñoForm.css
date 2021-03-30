@@ -1,0 +1,42 @@
+.barra_navegacion{
+  
+    height: 3rem;
+    width: auto;
+    background-color: rgb(20, 18, 18);
+    display:flex;
+    justify-content: flex-end;
+    
+  }
+  .barra_navegacion a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.ordenar{
+    width: 32rem;
+    height: 18px;
+}
+
+h2{
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input{
+    border: 2px solid rgb(29, 25, 25);
+    border-radius: 5px;
+}
+#enviar{
+    width: 52rem;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

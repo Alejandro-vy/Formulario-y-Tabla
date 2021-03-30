@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid rgb(24, 21, 21);
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 15px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1fb624ec;
+  color: rgb(234, 233, 240);
+}
+.barra_navegacion{
+  
+  height: 3rem;
+  width: auto;
+  background-color: rgb(20, 18, 18);
+  display:flex;
+  justify-content: flex-end;
+  
+}
+.barra_navegacion a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 10px;
+}
+</style>
+</head>
+<body>
+  <nav class="barra_navegacion">
+    <a href="#">Formulario</a></li>
+    <a href="/tabla.html">Tabla</a></li>
+  </nav>
+<h2>DATOS REGISTRADOS</h2>
+<table id="customers">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th> 
+    <th>Telefono</th>
+    <th>Fecha de Nacimiento</th>
+    <th>Carrera</th>
+    <th>Año ingreso<th>
+  </tr>
+  <tr>
+    <td>Juan Perez</td>
+    <td>j.perez01@ufromail.cl</td>
+    <td>950213241</td>
+    <td>17-08-2001</td>
+    <td>Ingeniería informática</td>
+     <td>2020</td>
+  </tr>
+  <tr>
+    <td>Felipe Sanchez</td>
+    <td>f.sanchez02@ufromail.cl</td>
+    <td>944218374</td>
+    <td>11-04-1998</td>
+    <td>Ingeniería Civil informática</td>
+    <td>2016</td>
+  </tr>
+  <tr>
+    <td>Sergio Figueroa</td>
+    <td>s.figueroa03@ufromail.cl</td>
+    <td>909023248</td>
+    <td>21-03-2000</td>
+    <td>Ingeniería Civil informática</td>
+    <td>2019</td>
+  </tr>
+    <tr>
+    <td>Alejandro Perez</td>
+    <td>a.perez04@ufromail.cl</td>
+    <td>980882365</td>
+    <td>20-11-1999</td>
+    <td>Ingeniería Civil industrial mención informática</td>
+    <td>2019</td>
+  </tr>
+</table>
+
+</body>
+</html>
